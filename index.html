@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farmácia Pague Menos | Parnaíba - PI</title>
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.2.1/dist/flowbite.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#004AAD',
+            secondary: '#FF1F3D'
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/5586999999999" class="fixed bottom-5 right-5 z-50">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" class="w-12 h-12">
+  </a>
+
+  <!-- Navbar -->
+  <nav class="bg-white border-b border-gray-200">
+    <div class="max-w-screen-xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <img src="https://cdn-icons-png.flaticon.com/512/3050/3050525.png" class="h-8" alt="Farmácia Logo" />
+        <span class="text-xl font-bold text-primary">Pague Menos</span>
+      </a>
+      <ul class="hidden md:flex gap-6 font-medium">
+        <li><a href="#sobre" class="hover:text-primary transition">Sobre</a></li>
+        <li><a href="#servicos" class="hover:text-primary transition">Serviços</a></li>
+        <li><a href="#produtos" class="hover:text-primary transition">Produtos</a></li>
+        <li><a href="#contato" class="hover:text-primary transition">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="bg-primary text-white py-16">
+    <div class="max-w-screen-md mx-auto px-4 text-center">
+      <h1 class="text-3xl md:text-5xl font-bold mb-4">Bem-vindo à Pague Menos</h1>
+      <p class="text-lg md:text-xl">Cuidando da sua saúde com carinho e economia em Parnaíba.</p>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="py-14">
+    <div class="max-w-screen-md mx-auto px-4 text-center">
+      <h2 class="text-2xl font-bold text-primary mb-4">Sobre nós</h2>
+      <p class="text-gray-600 leading-relaxed">A Pague Menos é uma rede de farmácias presente em todo o Brasil, oferecendo soluções completas em saúde, bem-estar e cuidado com você e sua família. Em Parnaíba, mantemos nosso compromisso com a excelência e o bom atendimento.</p>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="bg-gray-50 py-14">
+    <div class="max-w-screen-xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-primary text-center mb-10">Nossos serviços</h2>
+      <div class="grid gap-6 md:grid-cols-3">
+        <div class="bg-white p-6 rounded-lg shadow-sm border">
+          <h3 class="text-lg font-semibold text-primary mb-2">Medicamentos</h3>
+          <p class="text-sm text-gray-600">Genéricos, de referência e controlados com preços justos e qualidade.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-sm border">
+          <h3 class="text-lg font-semibold text-primary mb-2">Serviços farmacêuticos</h3>
+          <p class="text-sm text-gray-600">Testes rápidos, aplicação de injetáveis e acompanhamento com farmacêuticos.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-sm border">
+          <h3 class="text-lg font-semibold text-primary mb-2">Bem-estar</h3>
+          <p class="text-sm text-gray-600">Produtos de beleza, cuidados diários e promoções exclusivas para você.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Produtos -->
+  <section id="produtos" class="py-14">
+    <div class="max-w-screen-xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-primary text-center mb-10">Produtos em destaque</h2>
+      <div class="grid gap-6 md:grid-cols-4">
+        <div class="bg-white p-4 rounded-lg shadow-sm border text-center">
+          <img src="image copy.png" alt="Dipirona" class="mx-auto h-32 object-contain mb-4">
+          <h3 class="text-md font-semibold text-primary">Dipirona 500mg</h3>
+          <p class="text-sm text-gray-600">Analgésico e antitérmico</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-sm border text-center">
+          <img src="image copy 2.png" alt="Tilenol" class="mx-auto h-32 object-contain mb-4">
+          <h3 class="text-md font-semibold text-primary">Tylenol 750mg</h3>
+          <p class="text-sm text-gray-600">Alívio de dores e febre</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-sm border text-center">
+          <img src="image copy 3.png" alt="Shampoo Seda" class="mx-auto h-32 object-contain mb-4">
+          <h3 class="text-md font-semibold text-primary">Shampoo Seda</h3>
+          <p class="text-sm text-gray-600">Cabelos mais macios e saudáveis</p>
+        </div>
+        <div class="bg-white p-4 rounded-lg shadow-sm border text-center">
+          <img src="image copy 4.png" alt="Protetor Solar Sundown" class="mx-auto h-32 object-contain mb-4">
+          <h3 class="text-md font-semibold text-primary">Protetor Solar Sundown</h3>
+          <p class="text-sm text-gray-600">FPS 50 para todos os tipos de pele</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-14">
+    <div class="max-w-screen-sm mx-auto px-4">
+      <h2 class="text-2xl font-bold text-primary text-center mb-6">Fale conosco</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Seu nome" class="w-full border p-3 rounded-md" required>
+        <input type="email" placeholder="Seu email" class="w-full border p-3 rounded-md" required>
+        <textarea placeholder="Sua mensagem" rows="4" class="w-full border p-3 rounded-md" required></textarea>
+        <button type="submit" class="w-full bg-primary text-white py-3 rounded-md hover:bg-blue-800 transition">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Mapa -->
+  <section class="bg-gray-100 py-10">
+    <div class="max-w-screen-xl mx-auto px-4">
+      <h2 class="text-xl font-bold text-primary text-center mb-6">Onde estamos</h2>
+      <iframe class="w-full h-80 rounded-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.123999871245!2d-41.77608302418117!3d-2.906514597828621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x78da7df8610f661%3A0x679fef5a2db5e09e!2sFarm%C3%A1cia%20Pague%20Menos!5e0!3m2!1spt-BR!2sbr!4v1715861272716!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-primary text-white text-center py-5">
+    <p class="text-sm">&copy; 2025 Farmácia Pague Menos - Parnaíba, PI. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.2.1/dist/flowbite.min.js"></script>
+</body>
+</html>
